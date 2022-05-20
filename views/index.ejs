@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>| Home |</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+<body>
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+</body>
+
+<!-- Header Section Begin -->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="/img/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="header__nav">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="index.html">Homepage</a></li>
+                            <li><a href="categories.html">Categories <span class="arrow_carrot-down"></span></a>
+                                <ul class="dropdown">
+                                    <li><a href="categories.html">Categories</a></li>
+                                    <li><a href="film-details.html">Details</a></li>
+                                    <li><a href="film-watching.html">Watching</a></li>
+                                    <li><a href="signup.html">Sign Up</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="header__right">
+                    <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                    <a href="login.html"><span class="icon_profile"></span></a>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+</header>
+<!-- Header End -->
+
+
+<!-- Hero Section Begin -->
+<section class="hero">
+    <div class="container">
+        <% if (typeof message != 'undefined') { %>
+            <h2><%= message %></h2>
+        <% } %>
+        <div class="hero__slider owl-carousel">
+            <div class="hero__items set-bg z-index 999999" data-setbg="img/hero/hero.jpg">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero__text">
+                            <div class="label">Animation, action, adventure</div>
+                            <h2>Spider-Man: Into the Spider-Verse</h2>
+                            <p>What makes you different is what makes you Spider-Man.</p>
+                            <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__items set-bg z-index 999999" data-setbg="img/hero/hero1.jpg.png">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero__text">
+                            <div class="label">Horror</div>
+                            <h2>Morbius</h2>
+                            <p>I feel more alive than ever.</p>
+                            <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__items set-bg " data-setbg="img/hero/hero2.jpg">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero__text">
+                            <div class="label">Science fiction</div>
+                            <h2>What If...?</h2>
+                            <p>One terrible day, all of humanity came to an end, because a mystical rift appeared in the sky.</p>
+                            <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+<!--studio-->
+
+
+<!-- Product Section Begin -->
+<section class="product spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="trending__product">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <div class="section-title">
+                                <h4>Trending Now</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="btn__all">
+                                <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="/img/trending/trend-1.jpg">
+                                    <div class="ep">December 17, 2021</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 198,048</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 540,088</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Adventure, Action</li>
+                                    </ul>
+                                    <h5><a href="#">Spider-Man: No Way Home</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/trending/trend-2.jpg">
+                                    <div class="ep">April 1, 2022</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 101,845</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 445,056</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Adventure</li>
+                                        <li>Action</li>
+                                        <li>Science fiction</li>
+                                    </ul>
+                                    <h5><a href="#">Morbius</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/trending/trend-3.jpg">
+                                    <div class="ep">March 30, 2022</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 1,502,754</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Adventure</li>
+                                        <li>Fantasy</li>
+                                        <li>Shows</li>
+                                    </ul>
+                                    <h5><a href="#">Moon Knight</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="popular__product">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <div class="section-title">
+                                <h4>Popular Shows</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="btn__all">
+                                <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/popular/popular-1.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 2,655,463</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Mystery</li>
+                                        <li>Psychological thriller</li>
+                                        <li>Supernatural thriller</li>
+                                    </ul>
+                                    <h5><a href="#">What If...?</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/popular/popular-2.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 2,602,398</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Action</li>
+                                        <li>Dark fantasy</li>
+                                        <li>Post-apocalyptic</li>
+                                    </ul>
+                                    <h5><a href="#">Agents of S.H.I.E.L.D.</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/popular/popular-3.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 1,952,873</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Dark fantasy</li>
+                                        <li>Horror</li>
+                                        <li>Supernatural thriller</li>
+                                    </ul>
+                                    <h5><a href="#">Winter Soldier</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent__product">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <div class="section-title">
+                                <h4>Recently Added Shows</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="btn__all">
+                                <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/recent/recent-1.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 831,378</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Action</li>
+                                        <li>Dark fantasy</li>
+                                        <li>Post-apocalyptic</li>
+                                    </ul>
+                                    <h5><a href="#">Morbius</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/recent/recent-2.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 164,362</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Murder mystery</li>
+                                        <li>Psychological horror</li>
+                                        <li>Supernatural horror</li>
+                                    </ul>
+                                    <h5><a href="#">Shang-Chi</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/recent/recent-3.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 445,056</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Adventure</li>
+                                        <li>Post-apocalyptic</li>
+                                        <li>Science fiction</li>
+                                    </ul>
+                                    <h5><a href="#">Spider-Man: No Way Home</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="live__product">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <div class="section-title">
+                                <h4>Upcoming</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="btn__all">
+                                <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/live/live-1.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> -</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Adventure</li>
+                                        <li>Fantasy</li>
+                                        <li>Superhero</li>
+                                    </ul>
+                                    <h5><a href="#">Docter Strange</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/live/live-2.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> -</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li>Dark fantasy</li>
+                                    </ul>
+                                    <h5><a href="#">Blade</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/live/live-3.jpg">
+                                    <div class="ep">18 / 18</div>
+                                    <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                    <div class="view"><i class="fa fa-eye"></i> -</div>
+                                </div>
+                                <div class="product__item__text">
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                    <h5><a href="#">Spider-Man 3</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-8">
+                <div class="product__sidebar">
+                    <div class="product__sidebar__view">
+                        <div class="section-title">
+                            <h5>Top Views</h5>
+                        </div>
+                        <ul class="filter__controls">
+                            <li class="active" data-filter="*">Day</li>
+                            <li data-filter=".week">Week</li>
+                            <li data-filter=".month">Month</li>
+                            <li data-filter=".years">Years</li>
+                        </ul>
+                        <div class="filter__gallery">
+                            <div class="product__sidebar__view__item set-bg mix day years"
+                                 data-setbg="img/sidebar/tv-1.jpg">
+                                <div class="ep">18 / ?</div>
+                                <div class="view"><i class="fa fa-eye"></i> 540,088</div>
+                                <h5><a href="#">Marvel Studios</a></h5>
+                            </div>
+                            <div class="product__sidebar__view__item set-bg mix month week"
+                                 data-setbg="img/sidebar/tv-2.jpg">
+                                <div class="ep">18 / ?</div>
+                                <div class="view"><i class="fa fa-eye"></i> 427,632</div>
+                                <h5><a href="#">Loki</a></h5>
+                            </div>
+                            <div class="product__sidebar__view__item set-bg mix week years"
+                                 data-setbg="img/sidebar/tv-3.jpg">
+                                <div class="ep">18 / ?</div>
+                                <div class="view"><i class="fa fa-eye"></i> 2,186,174</div>
+                                <h5><a href="#">Avengers</a></h5>
+                            </div>
+                            <div class="product__sidebar__view__item set-bg mix years month"
+                                 data-setbg="img/sidebar/tv-4.jpg">
+                                <div class="ep">18 / ?</div>
+                                <div class="view"><i class="fa fa-eye"></i> 2,615,498</div>
+                                <h5><a href="#">Punisher</a></h5>
+                            </div>
+                            <div class="product__sidebar__view__item set-bg mix day"
+                                 data-setbg="img/sidebar/tv-5.jpg">
+                                <div class="ep">18 / ?</div>
+                                <div class="view"><i class="fa fa-eye"></i> 754,403</div>
+                                <h5><a href="#">Blade 2</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Product Section End -->
+
+<!-- Footer Section Begin -->
+<footer class="footer">
+    <div class="page-up">
+        <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer__logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer__nav">
+                    <ul>
+                        <li class="active"><a href="index.html">Homepage</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- Js Plugins -->
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/player.js"></script>
+<script src="/js/jquery.nice-select.min.js"></script>
+<script src="/js/mixitup.min.js"></script>
+<script src="/js/jquery.slicknav.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+</body>
+
+</html>
